@@ -1,0 +1,11 @@
+I was facing same issue, but then it solved through following steps:
+
+Step 1: Download Microsoft Visual Studio 2015 or newer (check if build tools are enough).
+
+Step 2: Download cmake (pip install cmake)
+
+Step 3: Install dlib (pip install dlib)
+
+Step 4: Install face-recognition (pip install face-recognition)
+
+But install it in specific environment that will be used later for face_recognition code (In conda: activate environment name).
